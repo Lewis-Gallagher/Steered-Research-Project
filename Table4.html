@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <meta name="description" content="Analysis of a toxigenomics RNA-seq data set">
+        <meta name="author" content="Waafar Alturaif" name=author content="Justin Dankwa" name=author content="Lewis Gallagher" name="author" content="Guan-Lin Kuo">
+  <title>SeqandDestroy | Table 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--QUERYJS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--MAIN--> <!--TABLES ARE CONVERTED INTO HTML FORMAT USING TABLEGENERATOR.COM-->
+<div class="container">
+    <h2><b>Rn6</b><br>Table of measures of differential expressions of the genes.</h2>
+  <p><i>Type something in the input field to search the table :</i></p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Ensembl_Gene_ID</th>
+        <th>Symbol</th>
+        <th>logFC</th>
+        <th>unshrunk_logFC</th>
+        <th>logCPM</th>
+        <th>PValue</th>
+        <th>FDR</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+  <tr>
+    <td >11</td>
+    <td >ENSRNOT00000022307</td>
+    <td >Gnmt-201</td>
+    <td >-6.639067452407</td>
+    <td >-6.64412193204764</td>
+    <td >6.71614343798041</td>
+    <td >1.80300823384074e-08</td>
+    <td >0.000151313162326459</td>
+  </tr>
+  <tr>
+    <td >26</td>
+    <td >ENSRNOT00000087017</td>
+    <td >LOC299282-208</td>
+    <td >-8.49936151925574</td>
+    <td >-8.50005833091092</td>
+    <td >11.4371553280109</td>
+    <td >2.21615395004548e-08</td>
+    <td >0.000151313162326459</td>
+  </tr>
+  <tr>
+    <td >18</td>
+    <td >ENSRNOT00000047126</td>
+    <td >Abcb1b-204</td>
+    <td >8.57270617997361</td>
+    <td >8.57770045052568</td>
+    <td >9.25345335730195</td>
+    <td >2.93198284380582e-08</td>
+    <td >0.000151313162326459</td>
+  </tr>
+  <tr>
+    <td >28</td>
+    <td >ENSRNOT00000088853</td>
+    <td >Cyp2c11-201</td>
+    <td >-9.19278416820168</td>
+    <td >-9.19528737331112</td>
+    <td >10.2852771953039</td>
+    <td >3.69755421409883e-08</td>
+    <td >0.000151313162326459</td>
+  </tr>
+  <tr>
+    <td >8</td>
+    <td >ENSRNOT00000014180</td>
+    <td >Car3-201</td>
+    <td >-9.12747044979685</td>
+    <td >-9.12899543414954</td>
+    <td >10.9361086307422</td>
+    <td >4.65071374351933e-08</td>
+    <td >0.000152255066535336</td>
+  </tr>
+  <tr>
+    <td >7</td>
+    <td >ENSRNOT00000012500</td>
+    <td >Serpina6-201</td>
+    <td >-5.00311511385792</td>
+    <td >-5.00377936952724</td>
+    <td >8.02632023803038</td>
+    <td >7.62124540978376e-08</td>
+    <td >0.000207920276854584</td>
+  </tr>
+  <tr>
+    <td >12</td>
+    <td >ENSRNOT00000022496</td>
+    <td >Amy1a-201</td>
+    <td >-4.78463840562153</td>
+    <td >-4.78505557204173</td>
+    <td >8.48235427437326</td>
+    <td >9.39705761348468e-08</td>
+    <td >0.000212011686325801</td>
+  </tr>
+  <tr>
+    <td >2</td>
+    <td>ENSRNOT00000002576</td>
+    <td >Prodh1-201</td>
+    <td >-4.66530846116544</td>
+    <td >-4.66857782050652</td>
+    <td >5.3878579880097</td>
+    <td >1.03616194673249e-07</td>
+    <td >0.000212011686325801</td>
+  </tr>
+  <tr>
+    <td >14</td>
+    <td >ENSRNOT00000041367</td>
+    <td >Sult2a2-202</td>
+    <td >-6.6374577681563</td>
+    <td >-6.63890516367468</td>
+    <td >8.5205300767297</td>
+    <td >1.38630798505585e-07</td>
+    <td >0.000252138615637546</td>
+  </tr>
+  <tr>
+    <td >22</td>
+    <td >ENSRNOT00000065978</td>
+    <td >Dhtkd1-201</td>
+    <td >-4.10764994729207</td>
+    <td >-4.10804369943512</td>
+    <td >7.89897706936629</td>
+    <td >1.80428670819327e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >24</td>
+    <td >ENSRNOT00000077053</td>
+    <td >Cdh13-202</td>
+    <td >6.86839061313589</td>
+    <td >6.89889577211351</td>
+    <td >4.96883602338446</td>
+    <td >1.85561803657205e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >23</td>
+    <td >ENSRNOT00000068043</td>
+    <td >LOC100360095-201</td>
+    <td >-10.0108563786763</td>
+    <td >-10.0267818098793</td>
+    <td >8.41984723466081</td>
+    <td >2.22250687596126e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >29</td>
+    <td >ENSRNOT00000091845</td>
+    <td >Hao2-203</td>
+    <td >-4.38405244697979</td>
+    <td >-4.38483025287914</td>
+    <td >7.18704218808442</td>
+    <td >2.80509364239812e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >6</td>
+    <td >ENSRNOT00000011486</td>
+    <td >Angptl3-201</td>
+    <td >-4.82376180901744</td>
+    <td >-4.82435424765035</td>
+    <td >8.01311798553302</td>
+    <td >2.8159469334535e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >15</td>
+    <td >ENSRNOT00000041499</td>
+    <td >Pik3c2g-201</td>
+    <td >-4.73580353137251</td>
+    <td >-4.74203873367975</td>
+    <td >4.52232691795472</td>
+    <td >2.85555027756541e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >27</td>
+    <td >ENSRNOT00000087471</td>
+    <td >LOC102549726-203</td>
+    <td >4.76170480127408</td>
+    <td >4.76621925586942</td>
+    <td >5.58225669092003</td>
+    <td >2.89214379888611e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >20</td>
+    <td >ENSRNOT00000061904</td>
+    <td >C8g-201</td>
+    <td >-3.75841250986023</td>
+    <td >-3.759272651095</td>
+    <td >6.4254254018877</td>
+    <td >2.95347028028217e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >21</td>
+    <td >ENSRNOT00000065232</td>
+    <td >AABR07057436.1-202</td>
+    <td >-4.24331211812339</td>
+    <td >-4.24395535272396</td>
+    <td >7.32170813521177</td>
+    <td >3.10322247167561e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >19</td>
+    <td >ENSRNOT00000048543</td>
+    <td >Sez6-201</td>
+    <td >-7.78949324521346</td>
+    <td >-7.80201639004255</td>
+    <td >6.56717254442217</td>
+    <td >3.10802916140321e-07</td>
+    <td >0.000267764891278996</td>
+  </tr>
+  <tr>
+    <td >30</td>
+    <td >ENSRNOT00000092017</td>
+    <td >Cyp2d3-204</td>
+    <td >-3.94076547782681</td>
+    <td >-3.94200786223397</td>
+    <td >6.07300972617242</td>
+    <td >3.74643833411113e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >5</td>
+    <td >ENSRNOT00000009462</td>
+    <td >Adhfe1-201</td>
+    <td >-5.85830939611725</td>
+    <td >-5.8618510188132</td>
+    <td >6.45401566722073</td>
+    <td >3.83172537642248e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >1</td>
+    <td >ENSRNOT00000001990</td>
+    <td >LOC100361492-201</td>
+    <td >5.29060850899178</td>
+    <td >5.30266535642159</td>
+    <td >4.71484764773311</td>
+    <td >4.33108049290502e-07</td>
+    <td>0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >3</td>
+    <td >ENSRNOT00000005875</td>
+    <td >AABR07057436.1-201</td>
+    <td >-4.00560174258026</td>
+    <td >-4.00673758581489</td>
+    <td >6.26922995389168</td>
+    <td >4.66641691588141e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >25</td>
+    <td >ENSRNOT00000077912</td>
+    <td >LOC100365958-203</td>
+    <td >-3.99483233738908</td>
+    <td >-3.99644022891515</td>
+    <td >5.7512110541859</td>
+    <td >4.67479195682755e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >13</td>
+    <td >ENSRNOT00000024622</td>
+    <td >Ces1f-203</td>
+    <td >-4.0790881135762</td>
+    <td >-4.07916153310387</td>
+    <td >10.2949093768827</td>
+    <td >5.15774827110026e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >17</td>
+    <td >ENSRNOT00000046169</td>
+    <td >Apoc1-201</td>
+    <td >-5.57341357454844</td>
+    <td >-5.57376028162848</td>
+    <td >9.52912445702337</td>
+    <td >5.2481115042173e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >16</td>
+    <td >ENSRNOT00000043908</td>
+    <td >Apon-201</td>
+    <td >-3.83701338918632</td>
+    <td >-3.83792174235783</td>
+    <td >6.42317863569754</td>
+    <td >5.27033775116136e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >10</td>
+    <td >ENSRNOT00000015961</td>
+    <td >Faah-201</td>
+    <td >-4.08229379621245</td>
+    <td >-4.08581775290434</td>
+    <td >4.69800273064784</td>
+    <td >5.48631888199891e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >9</td>
+    <td >ENSRNOT00000014235</td>
+    <td >Acsl1-201</td>
+    <td >-3.91994827975497</td>
+    <td >-3.92000636920727</td>
+    <td >10.4767651555119</td>
+    <td >5.76758486166016e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+  <tr>
+    <td >4</td>
+    <td >ENSRNOT00000007825</td>
+    <td >Slc10a1-201</td>
+    <td >-5.95442166915351</td>
+    <td >-5.95542885176538</td>
+    <td >8.36837567133237</td>
+    <td >6.17220208426336e-07</td>
+    <td >0.000292458369736494</td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+
+<!--FILTER SCRIPT (OBTAINED ONLINE AT W3SCHOOLS)-->    
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>

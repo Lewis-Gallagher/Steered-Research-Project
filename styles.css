@@ -1,0 +1,252 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height:1.5;
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    color: blanchedalmond;
+    margin: 0;
+    background-color:#5D6D7E; 
+}
+
+/*Global*/
+.container{
+    width: 88%;
+    margin:auto;
+    overflow: hidden;
+    
+}
+
+/*Header*/
+header{
+    background:#3a4660;
+    color:white; 
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom:#5D6D7E 5px solid;
+    
+}
+
+header a{
+    color:blanchedalmond;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 15px;  
+}
+
+header u1{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+header li{
+    
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:blanchedalmond;
+    font: bold;
+    text-shadow: -1px -1px 0px #99A3A4,1px -1px 0px #99A3A4, -1px 1px 0px #99A3A4, 1px 1px 0px #99A3A4;
+}
+
+header a:hover{
+    color: burlywood; 
+    font-weight:bold;
+}
+
+
+/*Showcase*/
+#showcase{
+    min-height:650px;
+    background:url('../Images/IMG_5436.jpg') no-repeat 0-310px;
+    background-size:cover;
+    text-align:center;
+    color:blanchedalmond;
+    text-shadow: 2px 2px 0px #34495E;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#Group{
+    padding:15px;
+    color:blanchedalmond;
+    background:#3a4660;
+    text-shadow: -1px -1px 0px #5D6D7E,1px -1px 0px #5D6D7E, -1px 1px 0px #5D6D7E, 1px 1px 0px #5D6D7E  ;
+}
+
+/*writing on Data Page*/
+
+.data_title_page{
+    margin-top: 75px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+/*Boxes*/
+
+ .box{
+    float:left;
+    text-align: center;
+    width: 260px;
+    padding: 3px;
+    margin: 3px auto;
+}
+
+/*Sidebar of About Page*/
+aside{
+    float:right;
+    width:30%;
+    margin-top:50px;
+}
+
+/*Main Paragraph of About Page*/
+article{
+    float:left;
+    width:65%
+}
+
+.dark{
+    padding: 15px;
+    background: #3a4660;
+    color: blanchedalmond;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style The Dropdown Button */
+.dropdown-toggle {
+    background-color:orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;  
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 180px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown-toggle {
+    background-color: #3e8e41;
+}
+
+
+
+
+/* Style The Dropdown Button */
+#launch_data.dropdown-toggle {
+    background-color:orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;  
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+#launch_data.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#launch_data.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+#launch_data.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+#launch_data.dropdown-menu a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+#launch_data.dropdown:hover #launch_data.dropdown-menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#launch_data.dropdown:hover #launch_data.dropdown-toggle {
+    background-color: #3e8e41;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top:20px;
+    color:blanchedalmond;
+    
+}
+

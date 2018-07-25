@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <meta name="description" content="Analysis of a toxigenomics RNA-seq data set">
+        <meta name="author" content="Waafar Alturaif" name=author content="Justin Dankwa" name=author content="Lewis Gallagher" name="author" content="Guan-Lin Kuo">
+        <title>SeqandDestroy | About</title>
+        <link rel="stylesheet" href="./CSS/styles.css">
+    </head>
+    <body> 
+        <header>
+        <div class="container">
+         <div id="branding">
+             <h1><span class="highlight">SeqandDestroy</span></h1>
+            </div>
+            <nav>
+                <u1>
+                     <!--FOR NAV BAR-->
+                    <li><a href="Website.html">Home</a></li>
+                    <li class="current"> <a href="about.html">About</a></li>                    
+                    <li><a href="data.html">Data
+                    </a></li>
+                </u1>
+            </nav>
+        </div>
+        </header>
+        
+        <!--FOR THE Main PAGE-->
+        <section id="Main">
+         <div class="container">
+             <article id=main-col>
+                 <h1 class="title_page">Summary of the analysis</h1>
+                 <p class=dark>SeqandDestroy adapted the approach of the Sequencing Quality Control (SEQC) centering the study design around 1 specific drug/chemical; miconazole (MIC) and 2 further controls.  Our research utilised the RNA-seq data analysis pipeline 6 as detailed in their publication (Wang et al. 2014. The concordance between RNA-seq and microarray data depends on chemical treatment and transcript abundance. Nature Biotechnology, 32(9), pp.926-932).</p>
+                 <p>We replicate the RNA-Seq analysis by obtaining the rat (rn4) transcriptome, External RNA Controls Consortium sequences (ERCC) and unmasked genomes from the Ensembl databases. These were aligned through Bowtie v0.12.7 and then quantified by RSEM v1.1.18-modified.</p>
+                 <p>Three further methods (limma, edgeR and Deseq) were used to compute the differential expression genes (DEGs) from RNA-seq data. This approaches are repeated for the newer rat (rn6) transcriptome. For the comparison of our outcomes, an alternative, more recent, analysis pipeline was also developed and used. </p>
+                 <br>
+                 <h1> Miconazole (MIC)</h1><img src="Images/MIC.png" width="200" height="200" border="5"> <p class=dark>Miconazole is a synthetic derivative of imidazole. An antifungal agent, it is often used topically and/or by intravenous infusion. Commonly used to treat tinea pedis (athlete's foot)  <i>(Drugs.com, 2018).</i> </p>
+             </article>
+             
+              <!--PARAGRAPH DESIGN-->
+             <aside id="sidebar">
+                 <div class="dark" class="box">
+                 <h3>More about our research</h3>
+                     <img src="Images/image.png" width="300" height="200" border="5"><p><b>Flowchart image of Pipeline 6</b></p>
+                     <p>(Image adapted from: <i>(Wang et al. 2014)</i>. The concordance between RNA-seq and microarray data depends on chemical treatment and transcript abundance. Nature Biotechnology, 32(9), pp.926-932.)</p>
+                 </div>    
+             </aside>
+             
+             
+             
+          </div>
+        
+        </section>
+        <footer>
+         <p>SeqandDestroy, Copyright &copy; 2018</p>   
+        </footer>
+    </body>
+</html>
