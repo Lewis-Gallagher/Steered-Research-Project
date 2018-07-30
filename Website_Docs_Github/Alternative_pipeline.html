@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <meta name="description" content="Analysis of a toxigenomics RNA-seq data set">
+        <meta name="author" content="Waafar Alturaif" name=author content="Justin Dankwa" name=author content="Lewis Gallagher" name="author" content="Guan-Lin Kuo">
+        <title>SeqandDestroy | Alternative Pipeline</title>
+        <link rel="stylesheet" href="./CSS/styles.css">
+    </head>
+    <body> 
+        <header>
+        <div class="container">
+         <div id="branding">
+             <h1><span class="highlight">SeqandDestroy</span></h1>
+            </div>
+            <nav>
+                <u1>
+                    
+                     <!--FOR NAV BAR-->
+                    <li><a href="Website.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>                    
+                    <li class="current"><a href="data.html">Data
+                    </a></li>
+                </u1>
+            </nav>
+        </div>
+        </header>
+        
+         <!--MAIN-->
+        <section id="Main">
+         <div class="container">
+             <article id=main-col>
+                 <h1 class="title_page">Alternative Pipeline (Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown)</h1>
+                 <p class=dark>This section contains the Brown Norway rat genome (Rattus norvegicus) from Ensembl. Researchers from the RGSC combined sequence and map resources in a bacterial artificial chromosome (BAC) with whole genome shotgun sequencing to assemble the genome. Developments in rat genomics look promising due to the support of bioinformatics and combined efforts of groups worldwide.</p>
+                 <p>Any data here relates to the November 2004 and July 2014 update of the Rat Genome Sequencing Consortium (RGSC) ran through our alternative pipeline. </p>
+                 <br>
+             </article>
+        
+           
+             
+         <!--DROPDOWN BUTTON-->
+             <div class="dropdown">
+                 <h1 style="font-size: 16px;">Tables of differentially expressed genes</h1>
+            <button type="button" name="load_data" id="load_data" class="dropdown-toggle">Load Data</button>
+                <div class="dropdown-menu">
+                <a href="Tables/Table_alt2.html">Table for rn4 DEGs</a>
+                <a href="Tables/Table_alt1.html">Table for rn6 DEGs</a>
+                 </div>  
+                 <br>
+                 <br>
+                 <h1 style="font-size: 16px;">About the pipeline</h1>
+                 <img src="Images/alternative_pipeline.jpg" width="300" height="400" border="5"><p><b>Flowchart image of the alternative pipeline <br><i>(Pertea et al.,2016)</i></b></p>
+                 <p>The “new Tuxedo” protocol. This pipeline included HISAT2, StingTie and Ballgown that provided a complete analysis package for RNA-seq data and are open-source software tools. HISAT2 mapped the reads to the genome before StringTie assembled and merged the alignments into full length transcripts. Gffcompare was used next to compare genes and transcripts with the annotation and the report's statistics. StringTie then estimated abundances and created a new transcript table for input to Ballgown. R and Ballgown were then coherently used in the analysis of the differentially expressed genes and transcripts.</p>
+             </div>
+                 
+                 
+            <!--EMBED RSHINY APP   
+                 <h1 style = "font-size: 17px"><br><b>RShiny</b><br></h1>
+                 <div>
+                 <p>Shiny is an R package that makes it easy to build interactive web apps straight from R. Shiny combines the computational power of R with the interactivity of the modern web. Interact with our data and your analysis, and do it all with R, dive in</p>
+                 <div id="contentframe" style="position:relative; top: 160px; left: 0px;">
+                 <iframe src="http://bioinf6.bioc.le.ac.uk:3838/srpgrpb/server_test/" style="border: none; width: 1000px; height: 650px;right:0;top:10px;display:block;"></iframe>
+                 </div>-->
+                 
+        
+             <!--PARAGRAPH DESIGN
+             <aside id="sidebar" style="position: relative;float:right;
+    width:30%;
+    margin-top:50px">
+                 <div class="dark">
+                 <h3>More about our research</h3>
+                 <p>Still coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming homeIt's coming home</p>
+                 </div>    
+             </aside>-->
+                 
+             </div>
+            
+        
+                 </section>
+        <footer>
+         <p>SeqandDestroy, Copyright &copy; 2018</p>   
+        </footer>
+            </body>
+        </html>

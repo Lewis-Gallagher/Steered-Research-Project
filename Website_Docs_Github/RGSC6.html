@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <meta name="description" content="Analysis of a toxigenomics RNA-seq data set">
+        <meta name="author" content="Waafar Alturaif" name=author content="Justin Dankwa" name=author content="Lewis Gallagher" name="author" content="Guan-Lin Kuo">
+        <title>SeqandDestroy | RGSC6</title>
+        <link rel="stylesheet" href="./CSS/styles.css">
+    </head>
+    <body> 
+        <header>
+        <div class="container">
+         <div id="branding">
+             <h1><span class="highlight">SeqandDestroy</span></h1>
+            </div>
+            <nav>
+                <u1>
+                    
+                     <!--FOR NAV BAR-->
+                    <li><a href="Website.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>                    
+                    <li class="current"><a href="data.html">Data
+                    </a></li>
+                </u1>
+            </nav>
+        </div>
+        </header>
+        
+         <!--MAIN-->
+        <section id="Main">
+         <div class="container">
+             <article id=main-col>
+                 <h1 class="title_page">RGSC6 July.2014 (Rat genome/Rn6)</h1>
+                 <p class=dark>This section contains the Brown Norway rat genome (Rattus norvegicus) from Ensembl. Researchers from the RGSC combined sequence and map resources in a bacterial artificial chromosome (BAC) with whole genome shotgun sequencing to assemble the genome. Developments in rat genomics look promising due to the support of bioinformatics and combined efforts of groups worldwide.</p>
+                 <p>Any data here relates to the July 2014 update of the Rat Genome Sequencing Consortium (RGSC). </p>
+             </article>
+        
+           
+             
+         <!--DROPDOWN BUTTON-->
+             <div class="dropdown">
+                 <h1 style="font-size: 16px;">Tables of differentially expressed genes</h1>
+            <button type="button" name="load_data" id="load_data" class="dropdown-toggle">Load Data</button>
+                <div class="dropdown-menu">
+                <a href="Tables/Table3.html">Table for rn6 genes level DEGs</a>
+                <a href="Tables/Table4.html">Table for rn6 isoform level DEGs</a>
+                 </div>  
+                 <br>
+                 <br>
+                 <br>
+                 <p> The Integrative Genomics Viewer (IGV) is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets. It supports a wide variety of data types, including array-based and next-generation sequence data, and genomic annotations. SeqandDestroy mapped reads unto a reference genome; see this through the Interactive Genomic Viewer</p>
+                 <p>Click and Select from options below</p> <br>
+             </div>
+                 
+            <!--DROPDOWN BUTTON for igv-->
+             <div class="dropdown" id="launch_data">
+                 <h1 style="font-size: 16px;">Analysis Tools</h1>
+            <button type="button" name="launch_data" id="launch_data" class="dropdown-toggle">Launch IGV</button>
+                <div class="dropdown-menu" id="launch_data">
+                <a href="IGV_web/ConIGV1.html">Control (SRR1178019)</a>
+                     <a href="IGV_web/ConIGV2.html">Control (SRR1178024)</a>
+                     <a href="IGV_web/RN6SRR015.html"> MIC (SRR1178015)</a>
+                    <a href="IGV_web/RN6SRR022.html"> MIC (SRR1178022)</a>
+                    <a href="IGV_web/RN6SRR048.html"> MIC (SRR01178048)</a>
+                    
+                 </div>
+             </div>
+                 
+        <!-- RSHINY APP-->   
+                 <h1 style = "font-size: 17px" ><br><b >RShiny</b><br></h1>
+                 <div>
+                 <p>Shiny is an R package that makes it easy to build interactive web apps straight from R. Shiny combines the computational power of R with the interactivity of the modern web. Interact with our data and your analysis, and do it all with R, dive in</p><br>
+                     <a type="button" name="launch_data" id="launch_data" class="button" href="http://bioinf6.bioc.le.ac.uk:3838/srpgrpb/app/" target="_blank">Launch RShiny</a>
+             </div>
+                 
+        
+        </div>
+            
+        
+       </section>
+        <footer>
+         <p>SeqandDestroy, Copyright &copy; 2018</p>   
+        </footer>
+            </body>
+             
+        </html>
